@@ -23,3 +23,14 @@ print(f"Player choice: {player_choice}")
 #Get computer's choice
 comp_choice = random.choice(choices)
 print(f"Computer choice: {comp_choice}")
+
+#Determine winner
+
+if player_choice == comp_choice:
+  print("Tie!")
+else:
+  if player_choice == "rock": 
+    if comp_choice == "paper": 
+        print("Computer Wins!")
+    else:
+        print("Player Wins!")
