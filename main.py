@@ -20,3 +20,6 @@ while player_choice not in choices:
 
 print(f"Player choice: {player_choice}")
 
+#Get computer's choice
+comp_choice = random.choice(choices)
+print(f"Computer choice: {comp_choice}")
