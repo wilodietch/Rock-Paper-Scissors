@@ -41,6 +41,6 @@ else:
         print("Player Wins!") 
   else:
     if comp_choice == "rock":
-        print("*** Player wins!")  
+        print("*** Computer Wins!")  
     else:
         print("Player Wins!")
